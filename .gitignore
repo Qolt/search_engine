@@ -1,0 +1,10 @@
+*.pyc
+redis.egg-info
+build/
+dist/
+dump.rdb
+/.tox
+_build
+.swp
+.out
+pyprof
