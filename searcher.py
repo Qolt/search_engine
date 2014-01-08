@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import  MySQLdb
+import  MySQLdb, sys
 
 class Searcher:
     def __init__(self, dbname = 'crawler_db'):
@@ -46,7 +46,10 @@ class Searcher:
     def get_scored_list(self, rows, word_ids):
         total_scores = dict([(row[0],0) for row in rows])
         # Page ranging
-        weights = [(1.0, self.frequency_score(rows))]
+        weights = [(1.5, self.location_score(rows)), 
+                   (1.0, self.frequency_score(rows)), 
+                   (1.0, self.inbound_link_score(rows)), 
+                   (1.0, self.distance_score(rows))]
         for (weight, scores) in weights:
             for url in total_scores:
                 total_scores[url] += weight * scores[url]
@@ -81,6 +84,29 @@ class Searcher:
         for row in rows: counts[row[0]] += 1
         return self.normalize_scores(counts)
 
+    def location_score(self, rows):
+        locations = dict([(row[0],1000000) for row in rows])
+        for row in rows:
+            loc = sum(row[1:])
+            if loc < locations[row[0]]: locations[row[0]]=loc
+        return self.normalize_scores(locations, small_is_better=1)
+
+    def distance_score(self, rows):
+        if len(rows[0]) <= 2: return dict([(row[0], 1.0) for row in rows])
+        min_distance = dict([(row[0], 1000000) for row in rows])
+        for row in rows:
+            dist = sum([abs(row[i]-row[i-1]) for i in range(2, len(row))])
+            if dist < min_distance[row[0]]: min_distance[row[0]]=dist
+        return self.normalize_scores(min_distance, small_is_better = 1)
+
+    def inbound_link_score(self, rows):
+        unique_urls = set([row[0] for row in rows])
+        inbound_count = {}
+        for url in unique_urls:
+            self.cursor.execute('select count(*) from link where id=%d' % url)
+            inbound_count[url] = self.cursor.fetchone()[0]
+        return self.normalize_scores(inbound_count)
+
 if __name__ == "__main__":
     search  = Searcher()
-    search.query('поиск google')  
+    search.query(sys.argv[1])  
