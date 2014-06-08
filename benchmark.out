@@ -1,0 +1,2759 @@
+events: Ticks
+summary: 1352
+fn=InvalidOperation /usr/lib/python2.7/decimal.py:196
+196 0
+
+fn=<genexpr> /usr/lib/python2.7/urlparse.py:331
+331 0
+cfn=<chr>
+calls=484 0
+331 0
+
+fn=ContentTooShortError /usr/lib/python2.7/urllib.py:110
+110 0
+
+fn=ResultMixin /usr/lib/python2.7/urlparse.py:73
+73 0
+
+fn=<module> /usr/lib/python2.7/bisect.py:1
+1 0
+
+fn=URLError /usr/lib/python2.7/urllib2.py:137
+137 0
+
+fn=__init__ /usr/lib/python2.7/threading.py:58
+58 0
+
+fn=HTTPSConnection /usr/lib/python2.7/httplib.py:1155
+1155 0
+
+fn=<genexpr> /usr/lib/python2.7/collections.py:329
+329 0
+cfn=<method 'isalnum' of 'str' objects>
+calls=116 0
+329 0
+
+fn=<module> /usr/lib/python2.7/decimal.py:116
+116 0
+cfn=InvalidOperation /usr/lib/python2.7/decimal.py:196
+calls=1 196
+116 0
+cfn=namedtuple /usr/lib/python2.7/collections.py:288
+calls=1 288
+116 0
+cfn=DivisionUndefined /usr/lib/python2.7/decimal.py:262
+calls=1 262
+116 0
+cfn=Overflow /usr/lib/python2.7/decimal.py:322
+calls=1 322
+116 0
+cfn=_Log10Memoize /usr/lib/python2.7/decimal.py:5672
+calls=1 5672
+116 0
+cfn=__init__ /usr/lib/python2.7/decimal.py:5676
+calls=1 5676
+116 0
+cfn=InvalidContext /usr/lib/python2.7/decimal.py:285
+calls=1 285
+116 0
+cfn=Context /usr/lib/python2.7/decimal.py:3763
+calls=1 3763
+116 0
+cfn=<hasattr>
+calls=1 0
+116 0
+cfn=_ContextManager /usr/lib/python2.7/decimal.py:3748
+calls=1 3748
+116 0
+cfn=Clamped /usr/lib/python2.7/decimal.py:184
+calls=1 184
+116 0
+cfn=_WorkRep /usr/lib/python2.7/decimal.py:5418
+calls=1 5418
+116 0
+cfn=Rounded /usr/lib/python2.7/decimal.py:299
+calls=1 299
+116 0
+cfn=Underflow /usr/lib/python2.7/decimal.py:360
+calls=1 360
+116 0
+cfn=register /usr/lib/python2.7/abc.py:105
+calls=1 105
+116 0
+cfn=DivisionByZero /usr/lib/python2.7/decimal.py:235
+calls=1 235
+116 0
+cfn=<module> /usr/lib/python2.7/numbers.py:6
+calls=1 6
+116 0
+cfn=Inexact /usr/lib/python2.7/decimal.py:273
+calls=1 273
+116 0
+cfn=DivisionImpossible /usr/lib/python2.7/decimal.py:251
+calls=1 251
+116 0
+cfn=<module> /usr/lib/python2.7/threading.py:1
+calls=1 1
+116 1
+cfn=__init__ /usr/lib/python2.7/decimal.py:3782
+calls=3 3782
+116 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=4 188
+116 2
+cfn=__new__ /usr/lib/python2.7/decimal.py:515
+calls=6 515
+116 0
+cfn=DecimalException /usr/lib/python2.7/decimal.py:161
+calls=1 161
+116 0
+cfn=ConversionSyntax /usr/lib/python2.7/decimal.py:225
+calls=1 225
+116 0
+cfn=Subnormal /usr/lib/python2.7/decimal.py:311
+calls=1 311
+116 0
+cfn=Decimal /usr/lib/python2.7/decimal.py:506
+calls=1 506
+116 0
+
+fn=<_hashlib.openssl_sha1>
+0 0
+
+fn=ProxyDigestAuthHandler /usr/lib/python2.7/urllib2.py:1090
+1090 0
+
+fn=__subclasscheck__ /usr/lib/python2.7/abc.py:148
+148 0
+cfn=add /usr/lib/python2.7/_weakrefset.py:81
+calls=17 81
+148 0
+cfn=<method '__subclasses__' of 'type' objects>
+calls=17 0
+148 0
+cfn=__init__ /usr/lib/python2.7/_weakrefset.py:36
+calls=13 36
+148 0
+cfn=<method '__subclasshook__' of 'object' objects>
+calls=17 0
+148 0
+cfn=<getattr>
+calls=17 0
+148 0
+cfn=__contains__ /usr/lib/python2.7/_weakrefset.py:68
+calls=21 68
+148 0
+cfn=__iter__ /usr/lib/python2.7/_weakrefset.py:58
+calls=33 58
+148 0
+cfn=<issubclass>
+calls=20 0
+148 0
+
+fn=add /usr/lib/python2.7/_weakrefset.py:81
+81 0
+cfn=<method 'add' of 'set' objects>
+calls=30 0
+81 0
+
+fn=NavigableString /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:449
+449 0
+
+fn=_fetch_row /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:286
+286 0
+
+fn=namedtuple /usr/lib/python2.7/collections.py:288
+288 1
+cfn=<repr>
+calls=3 0
+288 0
+cfn=<len>
+calls=3 0
+288 0
+cfn=<method 'format' of 'str' objects>
+calls=3 0
+288 0
+cfn=<all>
+calls=17 0
+288 0
+cfn=<method 'isdigit' of 'str' objects>
+calls=17 0
+288 0
+cfn=<isinstance>
+calls=3 0
+288 0
+cfn=<method 'add' of 'set' objects>
+calls=14 0
+288 0
+cfn=<method 'startswith' of 'str' objects>
+calls=14 0
+288 0
+cfn=<method 'split' of 'str' objects>
+calls=3 0
+288 0
+cfn=<sys._getframe>
+calls=3 0
+288 0
+cfn=<method 'replace' of 'str' objects>
+calls=6 0
+288 0
+cfn=<map>
+calls=3 0
+288 0
+cfn=<module> <string>:1
+calls=1 1
+288 0
+cfn=<method 'get' of 'dict' objects>
+calls=3 0
+288 0
+cfn=<method '__contains__' of 'frozenset' objects>
+calls=17 0
+288 0
+cfn=<method 'join' of 'str' objects>
+calls=6 0
+288 0
+
+fn=Counter /usr/lib/python2.7/collections.py:387
+387 0
+
+fn=_get_string_decoder /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:205
+205 0
+
+fn=BadStatusLine /usr/lib/python2.7/httplib.py:1261
+1261 0
+
+fn=__init__ /usr/lib/python2.7/sre_parse.py:179
+179 0
+cfn=__next /usr/lib/python2.7/sre_parse.py:183
+calls=34 183
+179 0
+
+fn=opengroup /usr/lib/python2.7/sre_parse.py:73
+73 0
+cfn=<method 'append' of 'list' objects>
+calls=45 0
+73 0
+cfn=<method 'get' of 'dict' objects>
+calls=14 0
+73 0
+
+fn=BaseHandler /usr/lib/python2.7/urllib2.py:493
+493 0
+
+fn=<module> ./searchengine.py:3
+3 131
+cfn=<module> /usr/lib/python2.7/urllib2.py:76
+calls=1 76
+3 79
+cfn=<module> /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:78
+calls=1 78
+3 51
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:14
+calls=1 14
+3 152
+cfn=Crawler ./searchengine.py:9
+calls=1 9
+3 0
+cfn=create_index_tables ./searchengine.py:30
+calls=1 30
+3 233
+cfn=delete_index_tables ./searchengine.py:22
+calls=1 22
+3 528
+cfn=__init__ ./searchengine.py:11
+calls=1 11
+3 174
+
+fn=<module> /usr/lib/python2.7/urllib2.py:76
+76 1
+cfn=<module> /usr/lib/python2.7/bisect.py:1
+calls=1 1
+76 0
+cfn=URLError /usr/lib/python2.7/urllib2.py:137
+calls=1 137
+76 0
+cfn=ProxyDigestAuthHandler /usr/lib/python2.7/urllib2.py:1090
+calls=1 1090
+76 0
+cfn=BaseHandler /usr/lib/python2.7/urllib2.py:493
+calls=1 493
+76 0
+cfn=Request /usr/lib/python2.7/urllib2.py:197
+calls=1 197
+76 0
+cfn=HTTPPasswordMgr /usr/lib/python2.7/urllib2.py:753
+calls=1 753
+76 0
+cfn=OpenerDirector /usr/lib/python2.7/urllib2.py:311
+calls=1 311
+76 0
+cfn=HTTPCookieProcessor /usr/lib/python2.7/urllib2.py:1226
+calls=1 1226
+76 0
+cfn=HTTPErrorProcessor /usr/lib/python2.7/urllib2.py:512
+calls=1 512
+76 0
+cfn=HTTPPasswordMgrWithDefaultRealm /usr/lib/python2.7/urllib2.py:817
+calls=1 817
+76 0
+cfn=ProxyHandler /usr/lib/python2.7/urllib2.py:710
+calls=1 710
+76 0
+cfn=<hasattr>
+calls=1 0
+76 0
+cfn=ProxyBasicAuthHandler /usr/lib/python2.7/urllib2.py:902
+calls=1 902
+76 0
+cfn=<module> /usr/lib/python2.7/hashlib.py:55
+calls=1 55
+76 54
+cfn=<module> /usr/lib/python2.7/base64.py:3
+calls=1 3
+76 0
+cfn=FTPHandler /usr/lib/python2.7/urllib2.py:1360
+calls=1 1360
+76 0
+cfn=HTTPBasicAuthHandler /usr/lib/python2.7/urllib2.py:890
+calls=1 890
+76 0
+cfn=AbstractHTTPHandler /usr/lib/python2.7/urllib2.py:1102
+calls=1 1102
+76 0
+cfn=AbstractBasicAuthHandler /usr/lib/python2.7/urllib2.py:827
+calls=1 827
+76 0
+cfn=UnknownHandler /usr/lib/python2.7/urllib2.py:1244
+calls=1 1244
+76 0
+cfn=<module> /usr/lib/python2.7/httplib.py:67
+calls=1 67
+76 21
+cfn=HTTPHandler /usr/lib/python2.7/urllib2.py:1211
+calls=1 1211
+76 0
+cfn=AbstractDigestAuthHandler /usr/lib/python2.7/urllib2.py:932
+calls=1 932
+76 0
+cfn=<module> /usr/lib/python2.7/urllib.py:23
+calls=1 23
+76 0
+cfn=HTTPSHandler /usr/lib/python2.7/urllib2.py:1219
+calls=1 1219
+76 0
+cfn=HTTPDigestAuthHandler /usr/lib/python2.7/urllib2.py:1072
+calls=1 1072
+76 0
+cfn=FileHandler /usr/lib/python2.7/urllib2.py:1308
+calls=1 1308
+76 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+76 0
+cfn=CacheFTPHandler /usr/lib/python2.7/urllib2.py:1420
+calls=1 1420
+76 0
+cfn=HTTPRedirectHandler /usr/lib/python2.7/urllib2.py:533
+calls=1 533
+76 0
+cfn=HTTPError /usr/lib/python2.7/urllib2.py:150
+calls=1 150
+76 0
+cfn=HTTPDefaultErrorHandler /usr/lib/python2.7/urllib2.py:529
+calls=1 529
+76 0
+
+fn=<genexpr> /usr/lib/python2.7/abc.py:89
+89 0
+cfn=<getattr>
+calls=78 0
+89 0
+
+fn=DivisionUndefined /usr/lib/python2.7/decimal.py:262
+262 0
+
+fn=Complex /usr/lib/python2.7/numbers.py:34
+34 0
+cfn=abstractmethod /usr/lib/python2.7/abc.py:15
+calls=16 15
+34 0
+
+fn=HTTPConnection /usr/lib/python2.7/httplib.py:680
+680 0
+
+fn=_simple /usr/lib/python2.7/sre_compile.py:355
+355 0
+cfn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+calls=70 131
+355 0
+cfn=getwidth /usr/lib/python2.7/sre_parse.py:141
+calls=83 141
+355 0
+
+fn=CursorStoreResultMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:306
+306 0
+
+fn=RobustInsanelyWackAssHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1720
+1720 0
+
+fn=compile /usr/lib/python2.7/sre_compile.py:494
+494 0
+cfn=parse /usr/lib/python2.7/sre_parse.py:676
+calls=34 676
+494 5
+cfn=<_sre.compile>
+calls=34 0
+494 0
+cfn=<method 'items' of 'dict' objects>
+calls=34 0
+494 0
+cfn=_code /usr/lib/python2.7/sre_compile.py:479
+calls=34 479
+494 5
+cfn=isstring /usr/lib/python2.7/sre_compile.py:473
+calls=34 473
+494 0
+
+fn=CursorDictRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:435
+435 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:6
+6 0
+cfn=IntegrityError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:54
+calls=1 54
+6 0
+cfn=Warning /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:15
+calls=1 15
+6 0
+cfn=ProgrammingError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:68
+calls=1 68
+6 0
+cfn=InterfaceError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:26
+calls=1 26
+6 0
+cfn=Error /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:20
+calls=1 20
+6 0
+cfn=InternalError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:61
+calls=1 61
+6 0
+cfn=DataError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:38
+calls=1 38
+6 0
+cfn=MySQLError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:10
+calls=1 10
+6 0
+cfn=OperationalError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:45
+calls=1 45
+6 0
+cfn=DatabaseError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:32
+calls=1 32
+6 0
+cfn=NotSupportedError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:75
+calls=1 75
+6 0
+
+fn=_socketobject /usr/lib/python2.7/socket.py:179
+179 0
+
+fn=Number /usr/lib/python2.7/numbers.py:13
+13 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/release.py:2
+2 0
+
+fn=<method 'sort' of 'list' objects>
+0 0
+
+fn=parse /usr/lib/python2.7/sre_parse.py:676
+676 0
+cfn=__init__ /usr/lib/python2.7/sre_parse.py:179
+calls=34 179
+676 0
+cfn=__init__ /usr/lib/python2.7/sre_parse.py:68
+calls=34 68
+676 0
+cfn=_parse_sub /usr/lib/python2.7/sre_parse.py:302
+calls=34 302
+676 5
+cfn=get /usr/lib/python2.7/sre_parse.py:202
+calls=34 202
+676 0
+
+fn=Overflow /usr/lib/python2.7/decimal.py:322
+322 0
+
+fn=<_sre.compile>
+0 0
+
+fn=__init__ /usr/lib/python2.7/warnings.py:318
+318 0
+
+fn=Request /usr/lib/python2.7/urllib2.py:197
+197 0
+
+fn=IntegrityError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:54
+54 0
+
+fn=RobustWackAssHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1718
+1718 0
+
+fn=match /usr/lib/python2.7/sre_parse.py:196
+196 0
+cfn=__next /usr/lib/python2.7/sre_parse.py:183
+calls=222 183
+196 0
+
+fn=filterwarnings /usr/lib/python2.7/warnings.py:45
+45 0
+cfn=<isinstance>
+calls=4 0
+45 0
+cfn=<method 'insert' of 'list' objects>
+calls=1 0
+45 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=2 188
+45 0
+cfn=<issubclass>
+calls=1 0
+45 0
+
+fn=_note /usr/lib/python2.7/threading.py:63
+63 0
+
+fn=_set_ident /usr/lib/python2.7/threading.py:787
+787 0
+cfn=<thread.get_ident>
+calls=1 0
+787 0
+
+fn=isname /usr/lib/python2.7/sre_parse.py:217
+217 0
+cfn=isident /usr/lib/python2.7/sre_parse.py:211
+calls=82 211
+217 0
+
+fn=CursorUseResultMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:377
+377 0
+
+fn=<genexpr> /usr/lib/python2.7/collections.py:355
+355 0
+cfn=<method 'format' of 'str' objects>
+calls=14 0
+355 0
+
+fn=dbcommit ./searchengine.py:19
+19 0
+cfn=<method 'commit' of '_mysql.connection' objects>
+calls=1 0
+19 0
+
+fn=HTTPPasswordMgr /usr/lib/python2.7/urllib2.py:753
+753 0
+
+fn=<_hashlib.openssl_sha224>
+0 0
+
+fn=numeric_part /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:40
+40 0
+cfn=<method 'group' of '_sre.SRE_Match' objects>
+calls=4 0
+40 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=4 0
+40 0
+
+fn=<module> /usr/lib/python2.7/htmlentitydefs.py:1
+1 0
+cfn=<chr>
+calls=100 0
+1 0
+cfn=<method 'iteritems' of 'dict' objects>
+calls=1 0
+1 0
+
+fn=<method 'has_key' of 'dict' objects>
+0 0
+
+fn=<method 'character_set_name' of '_mysql.connection' objects>
+0 0
+
+fn=BeautifulSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1470
+1470 0
+cfn=buildTagMap /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1018
+calls=3 1018
+1470 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+1470 0
+
+fn=StopParsing /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1623
+1623 0
+
+fn=_get_unicode_literal /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:200
+200 0
+
+fn=SoupStrainer /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:889
+889 0
+
+fn=_Feature /usr/lib/python2.7/__future__.py:74
+74 0
+
+fn=_Log10Memoize /usr/lib/python2.7/decimal.py:5672
+5672 0
+
+fn=<method 'acquire' of 'thread.lock' objects>
+0 0
+
+fn=_Event /usr/lib/python2.7/threading.py:549
+549 0
+
+fn=_is_owned /usr/lib/python2.7/threading.py:299
+299 0
+cfn=<method 'acquire' of 'thread.lock' objects>
+calls=1 0
+299 0
+
+fn=<method 'setter' of 'property' objects>
+0 0
+
+fn=ParseResult /usr/lib/python2.7/urlparse.py:128
+128 0
+
+fn=SpooledTemporaryFile /usr/lib/python2.7/tempfile.py:501
+501 0
+
+fn=SGMLParser /usr/lib/python2.7/sgmllib.py:60
+60 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+60 0
+
+fn=OpenerDirector /usr/lib/python2.7/urllib2.py:311
+311 0
+
+fn=SplitResult /usr/lib/python2.7/urlparse.py:120
+120 0
+
+fn=__init__ /usr/lib/python2.7/_weakrefset.py:16
+16 0
+
+fn=<chr>
+0 0
+
+fn=_escape /usr/lib/python2.7/sre_parse.py:258
+258 0
+cfn=<len>
+calls=12 0
+258 0
+cfn=<ord>
+calls=12 0
+258 0
+cfn=<method 'get' of 'dict' objects>
+calls=59 0
+258 0
+cfn=checkgroup /usr/lib/python2.7/sre_parse.py:86
+calls=1 86
+258 0
+
+fn=Rational /usr/lib/python2.7/numbers.py:270
+270 0
+
+fn=<method 'affected_rows' of '_mysql.connection' objects>
+0 0
+
+fn=__exit__ /usr/lib/python2.7/_weakrefset.py:26
+26 0
+cfn=<method 'remove' of 'set' objects>
+calls=17 0
+26 0
+cfn=_commit_removals /usr/lib/python2.7/_weakrefset.py:52
+calls=17 52
+26 0
+
+fn=<method '__subclasses__' of 'type' objects>
+0 0
+
+fn=__init__ /usr/lib/python2.7/decimal.py:5676
+5676 0
+
+fn=Tag /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:506
+506 0
+
+fn=InvalidContext /usr/lib/python2.7/decimal.py:285
+285 0
+
+fn=<module> /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:78
+78 38
+cfn=NavigableString /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:449
+calls=1 449
+78 0
+cfn=RobustInsanelyWackAssHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1720
+calls=1 1720
+78 0
+cfn=RobustWackAssHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1718
+calls=1 1718
+78 0
+cfn=<module> /usr/lib/python2.7/htmlentitydefs.py:1
+calls=1 1
+78 0
+cfn=BeautifulSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1470
+calls=1 1470
+78 0
+cfn=StopParsing /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1623
+calls=1 1623
+78 0
+cfn=SoupStrainer /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:889
+calls=1 889
+78 0
+cfn=Tag /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:506
+calls=1 506
+78 0
+cfn=Comment /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:498
+calls=1 498
+78 0
+cfn=BeautifulStoneSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1039
+calls=1 1039
+78 0
+cfn=PageElement /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:113
+calls=1 113
+78 0
+cfn=ResultSet /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1009
+calls=1 1009
+78 0
+cfn=RobustXMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1714
+calls=1 1714
+78 0
+cfn=CData /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:486
+calls=1 486
+78 0
+cfn=UnicodeDammit /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1756
+calls=1 1756
+78 0
+cfn=BeautifulSOAP /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1675
+calls=1 1675
+78 0
+cfn=SimplifyingSOAPParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1722
+calls=1 1722
+78 0
+cfn=ProcessingInstruction /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:491
+calls=1 491
+78 0
+cfn=RobustHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1716
+calls=1 1716
+78 0
+cfn=<module> /usr/lib/python2.7/sgmllib.py:1
+calls=1 1
+78 11
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=2 188
+78 0
+cfn=MinimalSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1662
+calls=1 1662
+78 0
+cfn=<module> /usr/lib/python2.7/dist-packages/chardet/__init__.py:18
+calls=1 18
+78 0
+cfn=ICantBelieveItsBeautifulSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1626
+calls=1 1626
+78 0
+cfn=Declaration /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:502
+calls=1 502
+78 0
+
+fn=Thread /usr/lib/python2.7/threading.py:638
+638 0
+cfn=<method 'setter' of 'property' objects>
+calls=2 0
+638 0
+
+fn=HTTPCookieProcessor /usr/lib/python2.7/urllib2.py:1226
+1226 0
+
+fn=__init__ /usr/lib/python2.7/_weakrefset.py:36
+36 0
+
+fn=LineAndFileWrapper /usr/lib/python2.7/httplib.py:1276
+1276 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:8
+8 3
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:6
+calls=1 6
+8 1
+cfn=Connection /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:56
+calls=1 56
+8 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+8 0
+
+fn=closegroup /usr/lib/python2.7/sre_parse.py:84
+84 0
+cfn=<method 'remove' of 'list' objects>
+calls=45 0
+84 0
+
+fn=Message /usr/lib/python2.7/mimetools.py:20
+20 0
+
+fn=<repr>
+0 0
+
+fn=Comment /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:498
+498 0
+
+fn=__init__ /usr/lib/python2.7/__future__.py:75
+75 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:14
+14 136
+cfn=<module> /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:6
+calls=1 6
+14 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/release.py:2
+calls=1 2
+14 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/__init__.py:1
+calls=1 1
+14 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/FIELD_TYPE.py:6
+calls=1 6
+14 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/times.py:5
+calls=1 5
+14 15
+cfn=DBAPISet /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:39
+calls=1 39
+14 0
+
+fn=_Condition /usr/lib/python2.7/threading.py:254
+254 0
+
+fn=<method 'lstrip' of 'str' objects>
+0 0
+
+fn=_Timer /usr/lib/python2.7/threading.py:1056
+1056 0
+
+fn=<len>
+0 0
+cfn=__len__ /usr/lib/python2.7/sre_parse.py:127
+calls=106 127
+0 0
+
+fn=HTTPMessage /usr/lib/python2.7/httplib.py:218
+218 0
+
+fn=HTTPErrorProcessor /usr/lib/python2.7/urllib2.py:512
+512 0
+
+fn=<method 'info' of '_mysql.connection' objects>
+0 0
+
+fn=AddressList /usr/lib/python2.7/rfc822.py:770
+770 0
+
+fn=<method 'insert_id' of '_mysql.connection' objects>
+0 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/__init__.py:1
+1 0
+
+fn=<method 'format' of 'str' objects>
+0 0
+
+fn=_get_exports_list /usr/lib/python2.7/os.py:35
+35 0
+cfn=<dir>
+calls=1 0
+35 0
+
+fn=_MainThread /usr/lib/python2.7/threading.py:1086
+1086 0
+
+fn=SGMLParseError /usr/lib/python2.7/sgmllib.py:44
+44 0
+
+fn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+131 0
+cfn=__init__ /usr/lib/python2.7/sre_parse.py:91
+calls=83 91
+131 0
+cfn=<isinstance>
+calls=780 0
+131 0
+
+fn=<posix.urandom>
+0 0
+
+fn=<method 'isalnum' of 'str' objects>
+0 0
+
+fn=<setattr>
+0 0
+
+fn=<genexpr> /usr/lib/python2.7/collections.py:353
+353 0
+cfn=<method 'format' of 'str' objects>
+calls=14 0
+353 0
+
+fn=SplitResult <string>:1
+1 0
+
+fn=BeautifulStoneSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1039
+1039 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=2 188
+1039 0
+
+fn=<range>
+0 0
+
+fn=<module> /usr/lib/python2.7/heapq.py:31
+31 0
+
+fn=_warning_check /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:82
+82 0
+
+fn=_identityfunction /usr/lib/python2.7/sre_compile.py:25
+25 0
+
+fn=<globals>
+0 0
+
+fn=_TemporaryFileWrapper /usr/lib/python2.7/tempfile.py:372
+372 0
+
+fn=__next /usr/lib/python2.7/sre_parse.py:183
+183 1
+cfn=<len>
+calls=3264 0
+183 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/FIELD_TYPE.py:6
+6 0
+
+fn=<method 'strip' of 'str' objects>
+0 0
+
+fn=_compile_charset /usr/lib/python2.7/sre_compile.py:179
+179 0
+cfn=_identityfunction /usr/lib/python2.7/sre_compile.py:25
+calls=100 25
+179 0
+cfn=<method 'append' of 'list' objects>
+calls=358 0
+179 0
+cfn=_optimize_charset /usr/lib/python2.7/sre_compile.py:208
+calls=86 208
+179 2
+cfn=fixup /usr/lib/python2.7/sre_compile.py:52
+calls=14 52
+179 0
+cfn=<method 'extend' of 'list' objects>
+calls=17 0
+179 0
+
+fn=HTTPPasswordMgrWithDefaultRealm /usr/lib/python2.7/urllib2.py:817
+817 0
+
+fn=<method 'group' of '_sre.SRE_Match' objects>
+0 0
+
+fn=__exit__ /usr/lib/python2.7/warnings.py:355
+355 0
+
+fn=addclosehook /usr/lib/python2.7/urllib.py:978
+978 0
+
+fn=PageElement /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:113
+113 0
+cfn=_invert /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:117
+calls=1 117
+113 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+113 0
+
+fn=<method 'store_result' of '_mysql.connection' objects>
+0 0
+
+fn=<method '__subclasshook__' of 'object' objects>
+0 0
+
+fn=Warning /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:15
+15 0
+
+fn=Integral /usr/lib/python2.7/numbers.py:295
+295 0
+cfn=abstractmethod /usr/lib/python2.7/abc.py:15
+calls=13 15
+295 0
+
+fn=<max>
+0 0
+
+fn=UnknownProtocol /usr/lib/python2.7/httplib.py:1224
+1224 0
+
+fn=<all>
+0 0
+cfn=<genexpr> /usr/lib/python2.7/collections.py:329
+calls=133 329
+0 0
+
+fn=Context /usr/lib/python2.7/decimal.py:3763
+3763 0
+
+fn=buildTagMap /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1018
+1018 0
+cfn=<method 'items' of 'dict' objects>
+calls=5 0
+1018 0
+cfn=<hasattr>
+calls=21 0
+1018 0
+
+fn=OrderedDict /usr/lib/python2.7/collections.py:26
+26 0
+
+fn=<method 'items' of 'dict' objects>
+0 0
+
+fn=DictCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:483
+483 0
+
+fn=HTTPS /usr/lib/python2.7/httplib.py:1180
+1180 0
+
+fn=ParseResult <string>:1
+1 0
+
+fn=<method 'isdigit' of 'str' objects>
+0 0
+
+fn=_parse /usr/lib/python2.7/sre_parse.py:380
+380 2
+cfn=opengroup /usr/lib/python2.7/sre_parse.py:73
+calls=45 73
+380 0
+cfn=match /usr/lib/python2.7/sre_parse.py:196
+calls=488 196
+380 0
+cfn=isname /usr/lib/python2.7/sre_parse.py:217
+calls=14 217
+380 0
+cfn=_escape /usr/lib/python2.7/sre_parse.py:258
+calls=44 258
+380 0
+cfn=closegroup /usr/lib/python2.7/sre_parse.py:84
+calls=45 84
+380 0
+cfn=<len>
+calls=201 0
+380 0
+cfn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+calls=249 131
+380 0
+cfn=__init__ /usr/lib/python2.7/sre_parse.py:91
+calls=108 91
+380 0
+cfn=append /usr/lib/python2.7/sre_parse.py:139
+calls=278 139
+380 0
+cfn=<method 'append' of 'list' objects>
+calls=197 0
+380 0
+cfn=<ord>
+calls=348 0
+380 0
+cfn=_parse_sub /usr/lib/python2.7/sre_parse.py:302
+calls=56 302
+380 3
+cfn=_class_escape /usr/lib/python2.7/sre_parse.py:226
+calls=11 226
+380 0
+cfn=__setitem__ /usr/lib/python2.7/sre_parse.py:135
+calls=83 135
+380 0
+cfn=__len__ /usr/lib/python2.7/sre_parse.py:127
+calls=249 127
+380 0
+cfn=get /usr/lib/python2.7/sre_parse.py:202
+calls=1393 202
+380 1
+
+fn=_RandomNameSequence /usr/lib/python2.7/tempfile.py:108
+108 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/converters.py:33
+33 1
+cfn=<module> /usr/lib/python2.7/decimal.py:116
+calls=1 116
+33 6
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/FLAG.py:6
+calls=1 6
+33 0
+
+fn=ProgrammingError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:68
+68 0
+
+fn=<thread.allocate_lock>
+0 0
+
+fn=__init__ /usr/lib/python2.7/sre_parse.py:91
+91 0
+
+fn=cursor /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:234
+234 0
+cfn=__init__ /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:50
+calls=1 50
+234 0
+
+fn=Random /usr/lib/python2.7/random.py:72
+72 0
+
+fn=TestSGMLParser /usr/lib/python2.7/sgmllib.py:461
+461 0
+
+fn=ProxyHandler /usr/lib/python2.7/urllib2.py:710
+710 0
+
+fn=_get_db /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:134
+134 0
+
+fn=<module> /usr/lib/python2.7/urlparse.py:29
+29 0
+cfn=<genexpr> /usr/lib/python2.7/urlparse.py:331
+calls=485 331
+29 0
+cfn=ResultMixin /usr/lib/python2.7/urlparse.py:73
+calls=1 73
+29 0
+cfn=namedtuple /usr/lib/python2.7/collections.py:288
+calls=2 288
+29 1
+cfn=ParseResult /usr/lib/python2.7/urlparse.py:128
+calls=1 128
+29 0
+cfn=SplitResult /usr/lib/python2.7/urlparse.py:120
+calls=1 120
+29 0
+cfn=<module> /usr/lib/python2.7/collections.py:1
+calls=1 1
+29 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+29 0
+
+fn=_Semaphore /usr/lib/python2.7/threading.py:422
+422 0
+
+fn=ResultSet /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1009
+1009 0
+
+fn=<hasattr>
+0 0
+
+fn=InterfaceError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:26
+26 0
+
+fn=_fileobject /usr/lib/python2.7/socket.py:235
+235 0
+
+fn=RobustXMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1714
+1714 0
+
+fn=_ContextManager /usr/lib/python2.7/decimal.py:3748
+3748 0
+
+fn=isident /usr/lib/python2.7/sre_parse.py:211
+211 0
+
+fn=Clamped /usr/lib/python2.7/decimal.py:184
+184 0
+
+fn=ImproperConnectionState /usr/lib/python2.7/httplib.py:1249
+1249 0
+
+fn=_compile_info /usr/lib/python2.7/sre_compile.py:360
+360 0
+cfn=<len>
+calls=166 0
+360 0
+cfn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+calls=15 131
+360 0
+cfn=_compile_charset /usr/lib/python2.7/sre_compile.py:179
+calls=10 179
+360 0
+cfn=getwidth /usr/lib/python2.7/sre_parse.py:141
+calls=34 141
+360 0
+cfn=<method 'append' of 'list' objects>
+calls=213 0
+360 0
+cfn=<method 'extend' of 'list' objects>
+calls=28 0
+360 0
+cfn=__len__ /usr/lib/python2.7/sre_parse.py:127
+calls=10 127
+360 0
+
+fn=HTTPResponse /usr/lib/python2.7/httplib.py:325
+325 0
+
+fn=<_weakref.proxy>
+0 5
+
+fn=_WorkRep /usr/lib/python2.7/decimal.py:5418
+5418 0
+
+fn=ProxyBasicAuthHandler /usr/lib/python2.7/urllib2.py:902
+902 0
+
+fn=<method 'remove' of 'set' objects>
+0 0
+
+fn=FancyURLopener /usr/lib/python2.7/urllib.py:610
+610 0
+
+fn=RawIOBase /usr/lib/python2.7/io.py:72
+72 0
+
+fn=URLopener /usr/lib/python2.7/urllib.py:116
+116 0
+
+fn=append /usr/lib/python2.7/sre_parse.py:139
+139 0
+cfn=<method 'append' of 'list' objects>
+calls=291 0
+139 0
+
+fn=CData /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:486
+486 0
+
+fn=<isinstance>
+0 0
+
+fn=<module> /usr/lib/python2.7/hashlib.py:55
+55 54
+cfn=<globals>
+calls=6 0
+55 0
+cfn=__get_openssl_constructor /usr/lib/python2.7/hashlib.py:94
+calls=6 94
+55 0
+
+fn=NotConnected /usr/lib/python2.7/httplib.py:1218
+1218 0
+
+fn=_BoundedSemaphore /usr/lib/python2.7/threading.py:514
+514 0
+
+fn=<method 'pop' of 'dict' objects>
+0 0
+
+fn=<method 'add' of 'set' objects>
+0 0
+
+fn=TextIOBase /usr/lib/python2.7/io.py:78
+78 0
+
+fn=Message /usr/lib/python2.7/rfc822.py:85
+85 0
+
+fn=<math.log>
+0 0
+
+fn=<module> /usr/lib/python2.7/base64.py:3
+3 0
+cfn=<method 'sort' of 'list' objects>
+calls=1 0
+3 0
+cfn=<chr>
+calls=256 0
+3 0
+cfn=<range>
+calls=1 0
+3 0
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+3 0
+
+fn=notifyAll /usr/lib/python2.7/threading.py:399
+399 0
+cfn=<len>
+calls=1 0
+399 0
+cfn=notify /usr/lib/python2.7/threading.py:372
+calls=1 372
+399 0
+
+fn=__init__ /usr/lib/python2.7/sre_parse.py:68
+68 0
+
+fn=<method 'startswith' of 'str' objects>
+0 0
+
+fn=BaseCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:25
+25 0
+
+fn=_Verbose /usr/lib/python2.7/threading.py:56
+56 0
+
+fn=FTPHandler /usr/lib/python2.7/urllib2.py:1360
+1360 0
+
+fn=<method 'split' of 'str' objects>
+0 0
+
+fn=getwidth /usr/lib/python2.7/sre_parse.py:141
+141 0
+cfn=<max>
+calls=26 0
+141 0
+cfn=getwidth /usr/lib/python2.7/sre_parse.py:141
+calls=156 141
+141 0
+cfn=<min>
+calls=416 0
+141 0
+
+fn=_do_query /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:277
+277 0
+cfn=_get_db /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:134
+calls=6 134
+277 0
+cfn=_do_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:117
+calls=5 117
+277 0
+cfn=<method 'query' of '_mysql.connection' objects>
+calls=6 0
+277 761
+
+fn=CursorTupleRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:427
+427 0
+
+fn=<_hashlib.openssl_sha256>
+0 0
+
+fn=Cursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:476
+476 0
+
+fn=Error /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:20
+20 0
+
+fn=__enter__ /usr/lib/python2.7/warnings.py:339
+339 0
+
+fn=<method 'append' of 'list' objects>
+0 0
+
+fn=Connect /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:78
+78 12
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:8
+calls=1 8
+78 4
+cfn=__init__ /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:62
+calls=1 62
+78 157
+
+fn=<module> /usr/lib/python2.7/collections.py:1
+1 0
+cfn=Counter /usr/lib/python2.7/collections.py:387
+calls=1 387
+1 0
+cfn=<module> /usr/lib/python2.7/heapq.py:31
+calls=1 31
+1 0
+cfn=OrderedDict /usr/lib/python2.7/collections.py:26
+calls=1 26
+1 0
+cfn=<module> /usr/lib/python2.7/keyword.py:11
+calls=1 11
+1 0
+
+fn=<_hashlib.openssl_md5>
+0 0
+
+fn=<method 'iteritems' of 'dict' objects>
+0 0
+
+fn=_code /usr/lib/python2.7/sre_compile.py:479
+479 0
+cfn=_compile_info /usr/lib/python2.7/sre_compile.py:360
+calls=34 360
+479 1
+cfn=<method 'append' of 'list' objects>
+calls=34 0
+479 0
+cfn=_compile /usr/lib/python2.7/sre_compile.py:33
+calls=34 33
+479 3
+
+fn=<sys._getframe>
+0 0
+
+fn=UnicodeDammit /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1756
+1756 0
+
+fn=_optimize_charset /usr/lib/python2.7/sre_compile.py:208
+208 1
+cfn=<len>
+calls=143 0
+208 0
+cfn=<range>
+calls=78 0
+208 0
+cfn=_identityfunction /usr/lib/python2.7/sre_compile.py:25
+calls=250 25
+208 0
+cfn=<method 'append' of 'list' objects>
+calls=251 0
+208 0
+cfn=fixup /usr/lib/python2.7/sre_compile.py:52
+calls=14 52
+208 0
+cfn=_mk_bitmap /usr/lib/python2.7/sre_compile.py:259
+calls=17 259
+208 0
+
+fn=Crawler ./searchengine.py:9
+9 0
+
+fn=_query /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:315
+315 0
+cfn=_do_query /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:277
+calls=6 277
+315 761
+cfn=_post_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:320
+calls=5 320
+315 0
+
+fn=<method 'replace' of 'str' objects>
+0 0
+
+fn=<ord>
+0 0
+
+fn=<thread.get_ident>
+0 0
+
+fn=fixup /usr/lib/python2.7/sre_compile.py:52
+52 0
+cfn=<_sre.getlower>
+calls=28 0
+52 0
+
+fn=Rounded /usr/lib/python2.7/decimal.py:299
+299 0
+
+fn=__init__ /usr/lib/python2.7/threading.py:259
+259 0
+cfn=__init__ /usr/lib/python2.7/threading.py:58
+calls=2 58
+259 0
+
+fn=create_index_tables ./searchengine.py:30
+30 0
+cfn=execute /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:139
+calls=1 139
+30 233
+
+fn=Underflow /usr/lib/python2.7/decimal.py:360
+360 0
+
+fn=<_mysql.get_client_info>
+0 40
+
+fn=InternalError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:61
+61 0
+
+fn=DataError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:38
+38 0
+
+fn=register /usr/lib/python2.7/abc.py:105
+105 0
+cfn=add /usr/lib/python2.7/_weakrefset.py:81
+calls=13 81
+105 0
+cfn=<isinstance>
+calls=13 0
+105 0
+cfn=<issubclass>
+calls=26 0
+105 0
+
+fn=HTTPBasicAuthHandler /usr/lib/python2.7/urllib2.py:890
+890 0
+
+fn=LineTooLong /usr/lib/python2.7/httplib.py:1268
+1268 0
+
+fn=_post_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:320
+320 0
+cfn=_fetch_row /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:286
+calls=5 286
+320 0
+
+fn=<method 'autocommit' of '_mysql.connection' objects>
+0 42
+
+fn=<built-in method __new__ of type object at 0x916e80>
+0 0
+
+fn=IOBase /usr/lib/python2.7/io.py:69
+69 0
+
+fn=BufferedIOBase /usr/lib/python2.7/io.py:75
+75 0
+
+fn=_parse_sub /usr/lib/python2.7/sre_parse.py:302
+302 0
+cfn=match /usr/lib/python2.7/sre_parse.py:196
+calls=164 196
+302 0
+cfn=<len>
+calls=104 0
+302 0
+cfn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+calls=32 131
+302 0
+cfn=_parse /usr/lib/python2.7/sre_parse.py:380
+calls=108 380
+302 5
+cfn=__init__ /usr/lib/python2.7/sre_parse.py:91
+calls=13 91
+302 0
+cfn=append /usr/lib/python2.7/sre_parse.py:139
+calls=13 139
+302 0
+cfn=<method 'append' of 'list' objects>
+calls=108 0
+302 0
+cfn=__len__ /usr/lib/python2.7/sre_parse.py:127
+calls=27 127
+302 0
+
+fn=WichmannHill /usr/lib/python2.7/random.py:651
+651 0
+
+fn=<dir>
+0 0
+
+fn=<module> /usr/lib/python2.7/tempfile.py:18
+18 0
+cfn=SpooledTemporaryFile /usr/lib/python2.7/tempfile.py:501
+calls=1 501
+18 0
+cfn=_TemporaryFileWrapper /usr/lib/python2.7/tempfile.py:372
+calls=1 372
+18 0
+cfn=_RandomNameSequence /usr/lib/python2.7/tempfile.py:108
+calls=1 108
+18 0
+cfn=<thread.allocate_lock>
+calls=1 0
+18 0
+cfn=<hasattr>
+calls=5 0
+18 0
+cfn=<module> /usr/lib/python2.7/io.py:34
+calls=1 34
+18 0
+cfn=<module> /usr/lib/python2.7/random.py:40
+calls=1 40
+18 0
+
+fn=addbase /usr/lib/python2.7/urllib.py:949
+949 0
+
+fn=<map>
+0 0
+
+fn=<module> /usr/lib/python2.7/io.py:34
+34 0
+cfn=RawIOBase /usr/lib/python2.7/io.py:72
+calls=1 72
+34 0
+cfn=TextIOBase /usr/lib/python2.7/io.py:78
+calls=1 78
+34 0
+cfn=register /usr/lib/python2.7/abc.py:105
+calls=8 105
+34 0
+cfn=IOBase /usr/lib/python2.7/io.py:69
+calls=1 69
+34 0
+cfn=BufferedIOBase /usr/lib/python2.7/io.py:75
+calls=1 75
+34 0
+cfn=__new__ /usr/lib/python2.7/abc.py:86
+calls=4 86
+34 0
+
+fn=addinfourl /usr/lib/python2.7/urllib.py:1003
+1003 0
+
+fn=<module> /usr/lib/python2.7/mimetools.py:1
+1 0
+cfn=__init__ /usr/lib/python2.7/warnings.py:318
+calls=1 318
+1 0
+cfn=Message /usr/lib/python2.7/mimetools.py:20
+calls=1 20
+1 0
+cfn=__exit__ /usr/lib/python2.7/warnings.py:355
+calls=1 355
+1 0
+cfn=<thread.allocate_lock>
+calls=1 0
+1 0
+cfn=__enter__ /usr/lib/python2.7/warnings.py:339
+calls=1 339
+1 0
+cfn=<module> /usr/lib/python2.7/tempfile.py:18
+calls=1 18
+1 1
+cfn=warnpy3k /usr/lib/python2.7/warnings.py:14
+calls=1 14
+1 0
+cfn=<module> /usr/lib/python2.7/rfc822.py:71
+calls=1 71
+1 0
+
+fn=BeautifulSOAP /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1675
+1675 0
+
+fn=ResponseNotReady /usr/lib/python2.7/httplib.py:1258
+1258 0
+
+fn=<_sre.getlower>
+0 0
+
+fn=CursorOldDictRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:467
+467 0
+
+fn=set /usr/lib/python2.7/threading.py:573
+573 0
+cfn=<method 'acquire' of 'thread.lock' objects>
+calls=1 0
+573 0
+cfn=notifyAll /usr/lib/python2.7/threading.py:399
+calls=1 399
+573 0
+cfn=<method 'release' of 'thread.lock' objects>
+calls=1 0
+573 0
+
+fn=abstractmethod /usr/lib/python2.7/abc.py:15
+15 0
+
+fn=Condition /usr/lib/python2.7/threading.py:241
+241 0
+cfn=__init__ /usr/lib/python2.7/threading.py:259
+calls=2 259
+241 0
+
+fn=MySQLError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:10
+10 0
+
+fn=addinfo /usr/lib/python2.7/urllib.py:993
+993 0
+
+fn=_commit_removals /usr/lib/python2.7/_weakrefset.py:52
+52 0
+
+fn=DivisionByZero /usr/lib/python2.7/decimal.py:235
+235 0
+
+fn=_class_escape /usr/lib/python2.7/sre_parse.py:226
+226 0
+cfn=<len>
+calls=11 0
+226 0
+cfn=<ord>
+calls=11 0
+226 0
+cfn=<method 'get' of 'dict' objects>
+calls=22 0
+226 0
+
+fn=isstring /usr/lib/python2.7/sre_compile.py:473
+473 0
+cfn=<isinstance>
+calls=68 0
+473 0
+
+fn=<genexpr> /usr/lib/python2.7/decimal.py:3809
+3809 0
+
+fn=AbstractHTTPHandler /usr/lib/python2.7/urllib2.py:1102
+1102 0
+
+fn=<method 'commit' of '_mysql.connection' objects>
+0 0
+
+fn=__setitem__ /usr/lib/python2.7/sre_parse.py:135
+135 0
+
+fn=<getattr>
+0 0
+
+fn=_closedsocket /usr/lib/python2.7/socket.py:167
+167 0
+
+fn=HTTP /usr/lib/python2.7/httplib.py:1059
+1059 0
+
+fn=__init__ /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:50
+50 0
+cfn=<_weakref.proxy>
+calls=1 0
+50 0
+
+fn=<method 'lower' of 'str' objects>
+0 0
+
+fn=AbstractBasicAuthHandler /usr/lib/python2.7/urllib2.py:827
+827 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+827 0
+
+fn=__get_openssl_constructor /usr/lib/python2.7/hashlib.py:94
+94 0
+cfn=<_hashlib.openssl_sha1>
+calls=1 0
+94 0
+cfn=<_hashlib.openssl_sha224>
+calls=1 0
+94 0
+cfn=<_hashlib.openssl_sha256>
+calls=1 0
+94 0
+cfn=<_hashlib.openssl_md5>
+calls=1 0
+94 0
+cfn=<getattr>
+calls=6 0
+94 0
+cfn=<_hashlib.openssl_sha384>
+calls=1 0
+94 0
+cfn=<_hashlib.openssl_sha512>
+calls=1 0
+94 0
+
+fn=<method 'release' of 'thread.lock' objects>
+0 0
+
+fn=SystemRandom /usr/lib/python2.7/random.py:801
+801 0
+
+fn=<module> /usr/lib/python2.7/numbers.py:6
+6 0
+cfn=Complex /usr/lib/python2.7/numbers.py:34
+calls=1 34
+6 0
+cfn=Number /usr/lib/python2.7/numbers.py:13
+calls=1 13
+6 0
+cfn=Rational /usr/lib/python2.7/numbers.py:270
+calls=1 270
+6 0
+cfn=Integral /usr/lib/python2.7/numbers.py:295
+calls=1 295
+6 0
+cfn=register /usr/lib/python2.7/abc.py:105
+calls=4 105
+6 0
+cfn=Real /usr/lib/python2.7/numbers.py:169
+calls=1 169
+6 0
+cfn=__new__ /usr/lib/python2.7/abc.py:86
+calls=5 86
+6 0
+
+fn=delete_index_tables ./searchengine.py:22
+22 0
+cfn=dbcommit ./searchengine.py:19
+calls=1 19
+22 0
+cfn=execute /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:139
+calls=5 139
+22 528
+
+fn=HTTPException /usr/lib/python2.7/httplib.py:1213
+1213 0
+
+fn=notify /usr/lib/python2.7/threading.py:372
+372 0
+cfn=_note /usr/lib/python2.7/threading.py:63
+calls=1 63
+372 0
+cfn=_is_owned /usr/lib/python2.7/threading.py:299
+calls=1 299
+372 0
+
+fn=Inexact /usr/lib/python2.7/decimal.py:273
+273 0
+
+fn=_RLock /usr/lib/python2.7/threading.py:124
+124 0
+
+fn=_do_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:117
+117 0
+cfn=<method 'affected_rows' of '_mysql.connection' objects>
+calls=5 0
+117 0
+cfn=<method 'info' of '_mysql.connection' objects>
+calls=5 0
+117 0
+cfn=<method 'insert_id' of '_mysql.connection' objects>
+calls=5 0
+117 0
+cfn=_get_db /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:134
+calls=5 134
+117 0
+cfn=<method 'warning_count' of '_mysql.connection' objects>
+calls=5 0
+117 0
+cfn=_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:313
+calls=5 313
+117 0
+
+fn=<zip>
+0 0
+
+fn=DivisionImpossible /usr/lib/python2.7/decimal.py:251
+251 0
+
+fn=UnknownHandler /usr/lib/python2.7/urllib2.py:1244
+1244 0
+
+fn=<math.exp>
+0 0
+
+fn=<method 'copy' of 'dict' objects>
+0 0
+
+fn=<math.sqrt>
+0 0
+
+fn=<module> /usr/lib/python2.7/httplib.py:67
+67 1
+cfn=HTTPSConnection /usr/lib/python2.7/httplib.py:1155
+calls=1 1155
+67 0
+cfn=BadStatusLine /usr/lib/python2.7/httplib.py:1261
+calls=1 1261
+67 0
+cfn=HTTPConnection /usr/lib/python2.7/httplib.py:680
+calls=1 680
+67 0
+cfn=__init__ /usr/lib/python2.7/warnings.py:318
+calls=1 318
+67 0
+cfn=LineAndFileWrapper /usr/lib/python2.7/httplib.py:1276
+calls=1 1276
+67 0
+cfn=HTTPMessage /usr/lib/python2.7/httplib.py:218
+calls=1 218
+67 0
+cfn=__exit__ /usr/lib/python2.7/warnings.py:355
+calls=1 355
+67 0
+cfn=UnknownProtocol /usr/lib/python2.7/httplib.py:1224
+calls=1 1224
+67 0
+cfn=HTTPS /usr/lib/python2.7/httplib.py:1180
+calls=1 1180
+67 0
+cfn=<module> /usr/lib/python2.7/urlparse.py:29
+calls=1 29
+67 2
+cfn=ImproperConnectionState /usr/lib/python2.7/httplib.py:1249
+calls=1 1249
+67 0
+cfn=HTTPResponse /usr/lib/python2.7/httplib.py:325
+calls=1 325
+67 0
+cfn=NotConnected /usr/lib/python2.7/httplib.py:1218
+calls=1 1218
+67 0
+cfn=__enter__ /usr/lib/python2.7/warnings.py:339
+calls=1 339
+67 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+67 0
+cfn=LineTooLong /usr/lib/python2.7/httplib.py:1268
+calls=1 1268
+67 0
+cfn=<module> /usr/lib/python2.7/mimetools.py:1
+calls=1 1
+67 2
+cfn=ResponseNotReady /usr/lib/python2.7/httplib.py:1258
+calls=1 1258
+67 0
+cfn=HTTP /usr/lib/python2.7/httplib.py:1059
+calls=1 1059
+67 0
+cfn=HTTPException /usr/lib/python2.7/httplib.py:1213
+calls=1 1213
+67 0
+cfn=<module> /usr/lib/python2.7/ssl.py:56
+calls=1 56
+67 0
+cfn=CannotSendHeader /usr/lib/python2.7/httplib.py:1255
+calls=1 1255
+67 0
+cfn=<module> /usr/lib/python2.7/socket.py:45
+calls=1 45
+67 15
+cfn=UnimplementedFileMode /usr/lib/python2.7/httplib.py:1232
+calls=1 1232
+67 0
+cfn=IncompleteRead /usr/lib/python2.7/httplib.py:1235
+calls=1 1235
+67 0
+cfn=InvalidURL /usr/lib/python2.7/httplib.py:1221
+calls=1 1221
+67 0
+cfn=UnknownTransferEncoding /usr/lib/python2.7/httplib.py:1229
+calls=1 1229
+67 0
+cfn=CannotSendRequest /usr/lib/python2.7/httplib.py:1252
+calls=1 1252
+67 0
+
+fn=_DummyThread /usr/lib/python2.7/threading.py:1126
+1126 0
+
+fn=SSCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:490
+490 0
+
+fn=<module> /usr/lib/python2.7/keyword.py:11
+11 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:6
+6 0
+cfn=CursorStoreResultMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:306
+calls=1 306
+6 0
+cfn=CursorDictRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:435
+calls=1 435
+6 0
+cfn=CursorUseResultMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:377
+calls=1 377
+6 0
+cfn=DictCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:483
+calls=1 483
+6 0
+cfn=BaseCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:25
+calls=1 25
+6 0
+cfn=CursorTupleRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:427
+calls=1 427
+6 0
+cfn=Cursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:476
+calls=1 476
+6 0
+cfn=CursorOldDictRowsMixIn /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:467
+calls=1 467
+6 0
+cfn=SSCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:490
+calls=1 490
+6 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+6 0
+cfn=SSDictCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:497
+calls=1 497
+6 0
+
+fn=DecimalTuple <string>:1
+1 0
+
+fn=ftpwrapper /usr/lib/python2.7/urllib.py:854
+854 0
+
+fn=__init__ /usr/lib/python2.7/threading.py:654
+654 0
+cfn=__init__ /usr/lib/python2.7/threading.py:58
+calls=1 58
+654 0
+cfn=<thread.allocate_lock>
+calls=1 0
+654 0
+cfn=Condition /usr/lib/python2.7/threading.py:241
+calls=1 241
+654 0
+cfn=_set_daemon /usr/lib/python2.7/threading.py:1095
+calls=1 1095
+654 0
+cfn=Event /usr/lib/python2.7/threading.py:539
+calls=1 539
+654 0
+
+fn=<module> /usr/lib/python2.7/ssl.py:56
+56 0
+cfn=SSLSocket /usr/lib/python2.7/ssl.py:164
+calls=1 164
+56 0
+cfn=CertificateError /usr/lib/python2.7/ssl.py:100
+calls=1 100
+56 0
+
+fn=__init__ /usr/lib/python2.7/random.py:91
+91 0
+cfn=seed /usr/lib/python2.7/random.py:100
+calls=1 100
+91 0
+
+fn=_compile /usr/lib/python2.7/re.py:226
+226 0
+cfn=compile /usr/lib/python2.7/sre_compile.py:494
+calls=34 494
+226 11
+cfn=<len>
+calls=34 0
+226 0
+cfn=<isinstance>
+calls=34 0
+226 0
+cfn=isstring /usr/lib/python2.7/sre_compile.py:473
+calls=34 473
+226 0
+cfn=<method 'get' of 'dict' objects>
+calls=35 0
+226 0
+
+fn=<method 'query' of '_mysql.connection' objects>
+0 761
+
+fn=<method 'extend' of 'list' objects>
+0 0
+
+fn=<module> /usr/lib/python2.7/random.py:40
+40 0
+cfn=Random /usr/lib/python2.7/random.py:72
+calls=1 72
+40 0
+cfn=<math.log>
+calls=2 0
+40 0
+cfn=WichmannHill /usr/lib/python2.7/random.py:651
+calls=1 651
+40 0
+cfn=SystemRandom /usr/lib/python2.7/random.py:801
+calls=1 801
+40 0
+cfn=<math.exp>
+calls=1 0
+40 0
+cfn=<math.sqrt>
+calls=1 0
+40 0
+cfn=__init__ /usr/lib/python2.7/random.py:91
+calls=1 91
+40 0
+cfn=<module> /usr/lib/python2.7/__future__.py:48
+calls=1 48
+40 0
+
+fn=defaulterrorhandler /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:17
+17 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+17 0
+
+fn=_invert /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:117
+117 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+117 0
+
+fn=_set_daemon /usr/lib/python2.7/threading.py:1095
+1095 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/FLAG.py:6
+6 0
+
+fn=SimplifyingSOAPParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1722
+1722 0
+
+fn=OperationalError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:45
+45 0
+
+fn=<binascii.hexlify>
+0 0
+
+fn=Event /usr/lib/python2.7/threading.py:539
+539 0
+cfn=__init__ /usr/lib/python2.7/threading.py:558
+calls=1 558
+539 0
+
+fn=HTTPHandler /usr/lib/python2.7/urllib2.py:1211
+1211 0
+
+fn=<method 'match' of '_sre.SRE_Pattern' objects>
+0 0
+
+fn=CannotSendHeader /usr/lib/python2.7/httplib.py:1255
+1255 0
+
+fn=execute /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:139
+139 0
+cfn=<method 'character_set_name' of '_mysql.connection' objects>
+calls=6 0
+139 0
+cfn=_warning_check /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:82
+calls=5 82
+139 0
+cfn=_get_db /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:134
+calls=6 134
+139 0
+cfn=<isinstance>
+calls=6 0
+139 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+139 0
+cfn=_query /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:315
+calls=6 315
+139 761
+cfn=defaulterrorhandler /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:17
+calls=1 17
+139 0
+cfn=<sys.exc_info>
+calls=1 0
+139 0
+
+fn=__init__ /usr/lib/python2.7/threading.py:558
+558 0
+cfn=__init__ /usr/lib/python2.7/threading.py:58
+calls=1 58
+558 0
+cfn=<thread.allocate_lock>
+calls=1 0
+558 0
+cfn=Condition /usr/lib/python2.7/threading.py:241
+calls=1 241
+558 0
+
+fn=AbstractDigestAuthHandler /usr/lib/python2.7/urllib2.py:932
+932 0
+
+fn=<module> /usr/lib/python2.7/socket.py:45
+45 14
+cfn=_socketobject /usr/lib/python2.7/socket.py:179
+calls=1 179
+45 0
+cfn=_get_exports_list /usr/lib/python2.7/os.py:35
+calls=1 35
+45 0
+cfn=<setattr>
+calls=14 0
+45 0
+cfn=_fileobject /usr/lib/python2.7/socket.py:235
+calls=1 235
+45 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+45 0
+cfn=<getattr>
+calls=16 0
+45 0
+cfn=_closedsocket /usr/lib/python2.7/socket.py:167
+calls=1 167
+45 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+45 0
+cfn=<method 'extend' of 'list' objects>
+calls=1 0
+45 0
+
+fn=__contains__ /usr/lib/python2.7/_weakrefset.py:68
+68 0
+
+fn=SSLSocket /usr/lib/python2.7/ssl.py:164
+164 0
+
+fn=<module> /usr/lib/python2.7/threading.py:1
+1 0
+cfn=filterwarnings /usr/lib/python2.7/warnings.py:45
+calls=1 45
+1 0
+cfn=_Event /usr/lib/python2.7/threading.py:549
+calls=1 549
+1 0
+cfn=Thread /usr/lib/python2.7/threading.py:638
+calls=1 638
+1 0
+cfn=_Condition /usr/lib/python2.7/threading.py:254
+calls=1 254
+1 0
+cfn=_Timer /usr/lib/python2.7/threading.py:1056
+calls=1 1056
+1 0
+cfn=_MainThread /usr/lib/python2.7/threading.py:1086
+calls=1 1086
+1 0
+cfn=<thread.allocate_lock>
+calls=1 0
+1 0
+cfn=_Semaphore /usr/lib/python2.7/threading.py:422
+calls=1 422
+1 0
+cfn=_BoundedSemaphore /usr/lib/python2.7/threading.py:514
+calls=1 514
+1 0
+cfn=_Verbose /usr/lib/python2.7/threading.py:56
+calls=1 56
+1 0
+cfn=_RLock /usr/lib/python2.7/threading.py:124
+calls=1 124
+1 0
+cfn=_DummyThread /usr/lib/python2.7/threading.py:1126
+calls=1 1126
+1 0
+cfn=__init__ /usr/lib/python2.7/threading.py:1088
+calls=1 1088
+1 0
+
+fn=<genexpr> /usr/lib/python2.7/decimal.py:3816
+3816 0
+
+fn=__len__ /usr/lib/python2.7/sre_parse.py:127
+127 0
+cfn=<len>
+calls=392 0
+127 0
+
+fn=__init__ /usr/lib/python2.7/threading.py:1088
+1088 0
+cfn=_set_ident /usr/lib/python2.7/threading.py:787
+calls=1 787
+1088 0
+cfn=<thread.get_ident>
+calls=1 0
+1088 0
+cfn=set /usr/lib/python2.7/threading.py:573
+calls=1 573
+1088 0
+cfn=__init__ /usr/lib/python2.7/threading.py:654
+calls=1 654
+1088 0
+
+fn=<module> <string>:1
+1 0
+cfn=SplitResult <string>:1
+calls=1 1
+1 0
+cfn=ParseResult <string>:1
+calls=1 1
+1 0
+cfn=DecimalTuple <string>:1
+calls=1 1
+1 0
+
+fn=<module> /usr/lib/python2.7/urllib.py:23
+23 0
+cfn=ContentTooShortError /usr/lib/python2.7/urllib.py:110
+calls=1 110
+23 0
+cfn=<method 'format' of 'str' objects>
+calls=191 0
+23 0
+cfn=addclosehook /usr/lib/python2.7/urllib.py:978
+calls=1 978
+23 0
+cfn=FancyURLopener /usr/lib/python2.7/urllib.py:610
+calls=1 610
+23 0
+cfn=URLopener /usr/lib/python2.7/urllib.py:116
+calls=1 116
+23 0
+cfn=addbase /usr/lib/python2.7/urllib.py:949
+calls=1 949
+23 0
+cfn=addinfourl /usr/lib/python2.7/urllib.py:1003
+calls=1 1003
+23 0
+cfn=addinfo /usr/lib/python2.7/urllib.py:993
+calls=1 993
+23 0
+cfn=<zip>
+calls=1 0
+23 0
+cfn=ftpwrapper /usr/lib/python2.7/urllib.py:854
+calls=1 854
+23 0
+cfn=<genexpr> /usr/lib/python2.7/urllib.py:1203
+calls=485 1203
+23 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=1 188
+23 0
+
+fn=DatabaseError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:32
+32 0
+
+fn=ParserBase /usr/lib/python2.7/markupbase.py:24
+24 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/CLIENT.py:8
+8 0
+
+fn=UnimplementedFileMode /usr/lib/python2.7/httplib.py:1232
+1232 0
+
+fn=Connection /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:56
+56 0
+cfn=<hasattr>
+calls=1 0
+56 0
+
+fn=seed /usr/lib/python2.7/random.py:100
+100 0
+cfn=<posix.urandom>
+calls=1 0
+100 0
+cfn=<binascii.hexlify>
+calls=1 0
+100 0
+cfn=<function seed at 0x7fea1c5005f0>
+calls=1 0
+100 0
+
+fn=HTTPSHandler /usr/lib/python2.7/urllib2.py:1219
+1219 0
+
+fn=<module> /usr/lib/python2.7/markupbase.py:7
+7 0
+cfn=ParserBase /usr/lib/python2.7/markupbase.py:24
+calls=1 24
+7 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=5 188
+7 1
+
+fn=<_hashlib.openssl_sha384>
+0 0
+
+fn=Real /usr/lib/python2.7/numbers.py:169
+169 0
+cfn=abstractmethod /usr/lib/python2.7/abc.py:15
+calls=8 15
+169 0
+
+fn=<genexpr> /usr/lib/python2.7/urllib.py:1203
+1203 0
+cfn=<chr>
+calls=484 0
+1203 0
+
+fn=ProcessingInstruction /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:491
+491 0
+
+fn=warnpy3k /usr/lib/python2.7/warnings.py:14
+14 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/times.py:5
+5 15
+
+fn=IncompleteRead /usr/lib/python2.7/httplib.py:1235
+1235 0
+
+fn=CertificateError /usr/lib/python2.7/ssl.py:100
+100 0
+
+fn=__init__ /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:62
+62 61
+cfn=_get_string_decoder /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:205
+calls=1 205
+62 0
+cfn=numeric_part /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:40
+calls=4 40
+62 0
+cfn=<method 'has_key' of 'dict' objects>
+calls=1 0
+62 0
+cfn=<method 'character_set_name' of '_mysql.connection' objects>
+calls=1 0
+62 0
+cfn=_get_unicode_literal /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:200
+calls=1 200
+62 0
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+62 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/converters.py:33
+calls=1 33
+62 7
+cfn=<_weakref.proxy>
+calls=1 0
+62 5
+cfn=<isinstance>
+calls=54 0
+62 0
+cfn=<method 'pop' of 'dict' objects>
+calls=4 0
+62 0
+cfn=<method 'split' of 'str' objects>
+calls=2 0
+62 0
+cfn=<_mysql.get_client_info>
+calls=1 0
+62 40
+cfn=<method 'autocommit' of '_mysql.connection' objects>
+calls=1 0
+62 42
+cfn=<method 'copy' of 'dict' objects>
+calls=1 0
+62 0
+cfn=<module> /usr/lib/python2.7/dist-packages/MySQLdb/constants/CLIENT.py:8
+calls=1 8
+62 0
+cfn=_get_string_literal /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:195
+calls=1 195
+62 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+62 0
+cfn=set_character_set /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:287
+calls=1 287
+62 0
+cfn=<method 'get_server_info' of '_mysql.connection' objects>
+calls=1 0
+62 0
+
+fn=<_hashlib.openssl_sha512>
+0 0
+
+fn=_get_string_literal /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:195
+195 0
+
+fn=<method 'get' of 'dict' objects>
+0 0
+
+fn=__init__ /usr/lib/python2.7/decimal.py:3782
+3782 0
+cfn=<isinstance>
+calls=6 0
+3782 0
+cfn=<genexpr> /usr/lib/python2.7/decimal.py:3809
+calls=27 3809
+3782 0
+cfn=<genexpr> /usr/lib/python2.7/decimal.py:3816
+calls=27 3816
+3782 0
+
+fn=RobustHTMLParser /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1716
+1716 0
+
+fn=<method 'remove' of 'list' objects>
+0 0
+
+fn=<method 'insert' of 'list' objects>
+0 0
+
+fn=<min>
+0 0
+
+fn=_mk_bitmap /usr/lib/python2.7/sre_compile.py:259
+259 0
+cfn=<method 'append' of 'list' objects>
+calls=136 0
+259 0
+
+fn=<method 'warning_count' of '_mysql.connection' objects>
+0 0
+
+fn=__iter__ /usr/lib/python2.7/_weakrefset.py:58
+58 0
+cfn=__init__ /usr/lib/python2.7/_weakrefset.py:16
+calls=17 16
+58 0
+cfn=__exit__ /usr/lib/python2.7/_weakrefset.py:26
+calls=17 26
+58 0
+cfn=__enter__ /usr/lib/python2.7/_weakrefset.py:20
+calls=17 20
+58 0
+
+fn=HTTPDigestAuthHandler /usr/lib/python2.7/urllib2.py:1072
+1072 0
+
+fn=FileHandler /usr/lib/python2.7/urllib2.py:1308
+1308 0
+
+fn=__enter__ /usr/lib/python2.7/_weakrefset.py:20
+20 0
+cfn=<method 'add' of 'set' objects>
+calls=17 0
+20 0
+
+fn=<module> /usr/lib/python2.7/sgmllib.py:1
+1 6
+cfn=SGMLParser /usr/lib/python2.7/sgmllib.py:60
+calls=1 60
+1 0
+cfn=SGMLParseError /usr/lib/python2.7/sgmllib.py:44
+calls=1 44
+1 0
+cfn=TestSGMLParser /usr/lib/python2.7/sgmllib.py:461
+calls=1 461
+1 0
+cfn=<module> /usr/lib/python2.7/markupbase.py:7
+calls=1 7
+1 1
+cfn=warnpy3k /usr/lib/python2.7/warnings.py:14
+calls=1 14
+1 0
+cfn=compile /usr/lib/python2.7/re.py:188
+calls=11 188
+1 3
+
+fn=<method '__contains__' of 'frozenset' objects>
+0 0
+
+fn=compile /usr/lib/python2.7/re.py:188
+188 0
+cfn=_compile /usr/lib/python2.7/re.py:226
+calls=35 226
+188 11
+
+fn=_compile /usr/lib/python2.7/sre_compile.py:33
+33 1
+cfn=_simple /usr/lib/python2.7/sre_compile.py:355
+calls=83 355
+33 0
+cfn=<len>
+calls=454 0
+33 0
+cfn=__getitem__ /usr/lib/python2.7/sre_parse.py:131
+calls=414 131
+33 0
+cfn=_compile_charset /usr/lib/python2.7/sre_compile.py:179
+calls=76 179
+33 2
+cfn=getwidth /usr/lib/python2.7/sre_parse.py:141
+calls=2 141
+33 0
+cfn=<method 'append' of 'list' objects>
+calls=1210 0
+33 0
+cfn=<_sre.getlower>
+calls=34 0
+33 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+33 0
+cfn=_compile /usr/lib/python2.7/sre_compile.py:33
+calls=170 33
+33 3
+
+fn=set_character_set /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:287
+287 0
+cfn=<method 'character_set_name' of '_mysql.connection' objects>
+calls=1 0
+287 0
+
+fn=MinimalSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1662
+1662 0
+cfn=buildTagMap /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1018
+calls=1 1018
+1662 0
+
+fn=InvalidURL /usr/lib/python2.7/httplib.py:1221
+1221 0
+
+fn=CacheFTPHandler /usr/lib/python2.7/urllib2.py:1420
+1420 0
+
+fn=HTTPRedirectHandler /usr/lib/python2.7/urllib2.py:533
+533 0
+
+fn=NotSupportedError /usr/lib/python2.7/dist-packages/_mysql_exceptions.py:75
+75 0
+
+fn=<issubclass>
+0 0
+cfn=__subclasscheck__ /usr/lib/python2.7/abc.py:148
+calls=17 148
+0 0
+
+fn=__new__ /usr/lib/python2.7/decimal.py:515
+515 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+515 0
+cfn=<method 'strip' of 'str' objects>
+calls=3 0
+515 0
+cfn=<method 'group' of '_sre.SRE_Match' objects>
+calls=10 0
+515 0
+cfn=<isinstance>
+calls=9 0
+515 0
+cfn=<built-in method __new__ of type object at 0x916e80>
+calls=6 0
+515 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects>
+calls=3 0
+515 0
+cfn=<abs>
+calls=3 0
+515 0
+
+fn=SSDictCursor /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:497
+497 0
+
+fn=checkgroup /usr/lib/python2.7/sre_parse.py:86
+86 0
+
+fn=<module> /usr/lib/python2.7/dist-packages/chardet/__init__.py:18
+18 0
+
+fn=ICantBelieveItsBeautifulSoup /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1626
+1626 0
+cfn=buildTagMap /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:1018
+calls=1 1018
+1626 0
+
+fn=<function seed at 0x7fea1c5005f0>
+0 0
+
+fn=HTTPError /usr/lib/python2.7/urllib2.py:150
+150 0
+
+fn=DBAPISet /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:39
+39 0
+
+fn=<method 'join' of 'str' objects>
+0 0
+cfn=<genexpr> /usr/lib/python2.7/collections.py:355
+calls=17 355
+0 0
+cfn=<genexpr> /usr/lib/python2.7/collections.py:353
+calls=17 353
+0 0
+
+fn=DecimalException /usr/lib/python2.7/decimal.py:161
+161 0
+
+fn=AddrlistClass /usr/lib/python2.7/rfc822.py:496
+496 0
+
+fn=<abs>
+0 0
+
+fn=Declaration /usr/local/lib/python2.7/dist-packages/BeautifulSoup.py:502
+502 0
+
+fn=UnknownTransferEncoding /usr/lib/python2.7/httplib.py:1229
+1229 0
+
+fn=ConversionSyntax /usr/lib/python2.7/decimal.py:225
+225 0
+
+fn=HTTPDefaultErrorHandler /usr/lib/python2.7/urllib2.py:529
+529 0
+
+fn=<method 'get_server_info' of '_mysql.connection' objects>
+0 0
+
+fn=Subnormal /usr/lib/python2.7/decimal.py:311
+311 0
+
+fn=__init__ ./searchengine.py:11
+11 0
+cfn=cursor /usr/lib/python2.7/dist-packages/MySQLdb/connections.py:234
+calls=1 234
+11 0
+cfn=Connect /usr/lib/python2.7/dist-packages/MySQLdb/__init__.py:78
+calls=1 78
+11 174
+
+fn=<module> /usr/lib/python2.7/rfc822.py:71
+71 0
+cfn=AddressList /usr/lib/python2.7/rfc822.py:770
+calls=1 770
+71 0
+cfn=Message /usr/lib/python2.7/rfc822.py:85
+calls=1 85
+71 0
+cfn=warnpy3k /usr/lib/python2.7/warnings.py:14
+calls=1 14
+71 0
+cfn=AddrlistClass /usr/lib/python2.7/rfc822.py:496
+calls=1 496
+71 0
+
+fn=__new__ /usr/lib/python2.7/abc.py:86
+86 0
+cfn=<genexpr> /usr/lib/python2.7/abc.py:89
+calls=50 89
+86 0
+cfn=__init__ /usr/lib/python2.7/_weakrefset.py:36
+calls=27 36
+86 0
+cfn=<method 'items' of 'dict' objects>
+calls=9 0
+86 0
+cfn=<method 'add' of 'set' objects>
+calls=56 0
+86 0
+cfn=<built-in method __new__ of type object at 0x916e80>
+calls=9 0
+86 0
+cfn=<getattr>
+calls=138 0
+86 0
+
+fn=_get_result /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:313
+313 0
+cfn=<method 'store_result' of '_mysql.connection' objects>
+calls=5 0
+313 0
+cfn=_get_db /usr/lib/python2.7/dist-packages/MySQLdb/cursors.py:134
+calls=5 134
+313 0
+
+fn=<sys.exc_info>
+0 0
+
+fn=Decimal /usr/lib/python2.7/decimal.py:506
+506 0
+
+fn=<module> /usr/lib/python2.7/__future__.py:48
+48 0
+cfn=_Feature /usr/lib/python2.7/__future__.py:74
+calls=1 74
+48 0
+cfn=__init__ /usr/lib/python2.7/__future__.py:75
+calls=7 75
+48 0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 0
+
+fn=CannotSendRequest /usr/lib/python2.7/httplib.py:1252
+1252 0
+
+fn=get /usr/lib/python2.7/sre_parse.py:202
+202 0
+cfn=__next /usr/lib/python2.7/sre_parse.py:183
+calls=1427 183
+202 1
+

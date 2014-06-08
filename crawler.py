@@ -3,13 +3,32 @@
 import urllib2, MySQLdb
 from BeautifulSoup import *
 from urlparse import urljoin
+import datetime, threading, time
 
 ignorewords=set(['the','of','to','and','a','in','is','it'])
 
-class Crawler:
+def tracer(f):
+    def tmp(*args, **kwargs):
+        print "*" * 80
+        print "Call:", f.__name__
+        print "Args:", args, kwargs
+        res = f(*args, **kwargs)
+        print f.__name__, "return", res
+        print "*" * 80
+        return res
+    return tmp    
+
+class Crawler_Error(Exception): pass
+
+class Db_manager(object):
+    
     def __init__(self, dbname = 'crawler_db'):
-        #self.conn = MySQLdb.connect(user='crawler', db = dbname, passwd='crawler', host='localhost')
-        self.conn = MySQLdb.connect(user = 'crawler', db = dbname, passwd = 'crawler', unix_socket = '/var/run/mysqld/mysqld.sock')
+        self.conn  = None
+        while not self.conn:
+            try:
+                self.conn = MySQLdb.connect(user = 'crawler', db = dbname, passwd = 'crawler', unix_socket = '/var/run/mysqld/mysqld.sock')
+            except Exception:
+                time.sleep(0.01)
         self.cursor = self.conn.cursor()
 
     def __del__(self):
@@ -59,13 +78,24 @@ class Crawler:
                                 FOREIGN KEY (linkid) REFERENCES link(id))""")
         self.dbcommit()
 
+
+class Crawler(Db_manager, threading.Thread):
+    def __init__(self, page, working_list, mutex, dbname = 'crawler_db'):
+        Db_manager.__init__(self, dbname)
+        threading.Thread.__init__(self)
+        self.working_list = working_list
+        self.page = page
+        self.mutex = mutex
+        with self.mutex:
+            working_list.append(page)
+
     # Get entry id, or add entry to database if it not exsist yet.
-    def get_entry_id(self,table,field,value,createnew=True):
+    @tracer
+    def get_entry_id(self, table, field, value, createnew=True):
         self.cursor.execute(
                 "select id from %s where %s='%s'" % (table, field, value.encode('utf-8')))
         res = self.cursor.fetchone()
         if res == None:
-            #Построение индекса
             self.cursor.execute('SET NAMES `utf8`')
             cur = self.cursor.execute(
                     "insert into %s (%s) values ('%s')" % (table, field, value.encode('utf-8')))
@@ -75,6 +105,7 @@ class Crawler:
             return res[0]
 
     # Index page
+    @tracer
     def add_to_index(self,url,soup):
         if self.is_indexed(url): return
         print 'Indexing ' + str(url)
@@ -93,6 +124,7 @@ class Crawler:
                     values (%d, %d, %d)" % (urlid, wordid, i))
 
     # Get text from page
+    @tracer
     def get_text_only(self, soup):
         v = soup.string
         if v == None:
@@ -106,12 +138,15 @@ class Crawler:
             return v.strip()
 
     # Split text
+    @tracer
     def separate_words(self,text):
         text = re.sub("[\\\\,=+!#№\?/^:'()@#|$;%&*{}\_\]\[]", "", text)
         return [s.lower() for s in text.split() if s!='']
 
     # Returns True if page is indexed
-    def is_indexed(self,url):
+    @tracer
+    def is_indexed(self, url):
+        #print "[Crawler.is_indexed]", url
         u = self.cursor.execute \
                 ("select id from urllist where url='%s'" % url.encode("utf-8"))
         u = self.cursor.fetchone()
@@ -120,44 +155,65 @@ class Crawler:
                     'select * from wordlocation where urlid=%d' % u[0])
             v = self.cursor.fetchone()
             if v != None: return True
-            return False
+        return False
 
     # Add links from one page to anothers
-    def add_link_ref(self,urlFrom,urlTo,linkText):
+    @tracer
+    def add_link_ref(self, urlFrom, urlTo):
         id_from = self.get_entry_id('urllist', 'url', urlFrom)
         id_to = self.get_entry_id('urllist', 'url', urlTo)
         cur = self.cursor.execute("insert into link (fromid, toid) values (%d, %d)" % (id_from, id_to))
 
+    @tracer
+    def normalize_url(self, url):
+        url = url.split('#')[0].split("?")[0] 
+        if url[-1] == "/": return url[0:-1]
+        return url
+
     # Indexing all page from list 'pages' with depth.
-    def crawl(self,pages,depth=2):
-        for i in range(depth):
-            newpages=set()
-            for page in pages:
-                try:
-                    c=urllib2.urlopen(page)
-                except:
-                    print "Can't open page", page
-                    continue
-                soup=BeautifulSoup(c.read())
-                for elem in soup.findAll(['script', 'style']):
-                    elem.extract()
-                self.add_to_index(page,soup)
-                links=soup('a')
-                for link in links:
-                    if ('href' in dict(link.attrs)):
-                        url=urljoin(page,link['href'])
-                        if url.find("'")!=-1: continue
-                        url=url.split('#')[0] # Delete part of URL after '#'
-                        if url[0:4]=='http' and not self.is_indexed(url):
-                            newpages.add(url)
-                            linkText=self.get_text_only(link)
-                            self.add_link_ref(page,url,linkText)
-                            self.dbcommit( )
-                            pages=newpages
+    @tracer
+    def run(self):
+        newpages = []
+        if not self.page: return False
+        try:
+            c = urllib2.urlopen(self.page)
+        except Exception:
+            print "Can't open page", self.page
+            return False
+        soup = BeautifulSoup(c.read())
+        for elem in soup.findAll(['script', 'style']):
+            elem.extract()
+        self.add_to_index(self.page, soup)
+        links=soup('a')
+        for link in links:
+            if ('href' in dict(link.attrs)):
+                url = urljoin(self.page, link['href'])
+                if url.find("'") != -1: continue
+                url = self.normalize_url(url)
+                if url[0:4]=='http' and not self.is_indexed(url):
+                    linkText = self.get_text_only(link)
+                    self.add_link_ref(self.page, url)
+                    self.dbcommit()
+                    if url not in self.working_list:
+                        crawler = Crawler(url, self.working_list, self.mutex)
+                        crawler.start()
+        with self.mutex:
+            self.working_list.remove(self.page)            
+        return True
 
 if __name__ == "__main__":
     pagelist = ['https://www.google.ru']
-    crawler = Crawler()
-    #crawler.delete_index_tables()
-    #crawler.create_index_tables()
-    crawler.crawl(pagelist, 3)
+
+    mutex = threading.Lock()
+
+    db_manager = Db_manager()
+    db_manager.delete_index_tables()
+    db_manager.create_index_tables()
+
+    crawlers = []; working_list = []
+    t1 = datetime.datetime.now()
+    for page in  pagelist:
+            crawler = Crawler(page, working_list, mutex)
+            crawler.start()
+
+    print "Finished in", datetime.datetime.now() - t1
