@@ -1,11 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import  MySQLdb, sys
+from pymorphy import get_morph
 
 class Searcher:
     def __init__(self, dbname = 'crawler_db'):
         self.conn = MySQLdb.connect(user = 'crawler', db = dbname, passwd = 'crawler', unix_socket = '/var/run/mysqld/mysqld.sock')
         self.cursor = self.conn.cursor()
+        self.morph = get_morph('dicts')
 
     def __del__(self):
         self.conn.close()
@@ -19,7 +21,13 @@ class Searcher:
         # Split query by words
         words = q.split(' ')
         table_number = 0
-        for word in words:
+        for w in words:
+            morph_word = self.morph.normalize(w)
+            if type(morph_word) == "set":
+                word = list(self.morph.normalize(words[i]))
+            else:
+                word = morph_word
+
             # Get words ids
             self.cursor.execute('SET NAMES `utf8`')
             self.cursor.execute(

@@ -4,6 +4,7 @@ import urllib2, MySQLdb
 from BeautifulSoup import *
 from urlparse import urljoin
 import datetime, threading, time
+from pymorphy import get_morph
 
 ignorewords=set(['the','of','to','and','a','in','is','it'])
 
@@ -86,11 +87,12 @@ class Crawler(Db_manager, threading.Thread):
         self.working_list = working_list
         self.page = page
         self.mutex = mutex
+        self.morph = get_morph('dicts')
         with self.mutex:
             working_list.append(page)
 
     # Get entry id, or add entry to database if it not exsist yet.
-    @tracer
+    #@tracer
     def get_entry_id(self, table, field, value, createnew=True):
         self.cursor.execute(
                 "select id from %s where %s='%s'" % (table, field, value.encode('utf-8')))
@@ -105,7 +107,7 @@ class Crawler(Db_manager, threading.Thread):
             return res[0]
 
     # Index page
-    @tracer
+    #@tracer
     def add_to_index(self,url,soup):
         if self.is_indexed(url): return
         print 'Indexing ' + str(url)
@@ -116,7 +118,12 @@ class Crawler(Db_manager, threading.Thread):
         urlid = self.get_entry_id('urllist','url',url)
         # Add link for each word to URL
         for i in range(len(words)):
-            word = words[i]
+            morph_word = self.morph.normalize(words[i])
+            if type(morph_word) == "set":
+                word = list(self.morph.normalize(words[i]))
+            else:
+                word = morph_word
+            print "Word", word
             if word in ignorewords: continue
             wordid = self.get_entry_id('wordlist','word',word)
             self.cursor.execute('SET NAMES `utf8`')
@@ -124,7 +131,7 @@ class Crawler(Db_manager, threading.Thread):
                     values (%d, %d, %d)" % (urlid, wordid, i))
 
     # Get text from page
-    @tracer
+    #@tracer
     def get_text_only(self, soup):
         v = soup.string
         if v == None:
@@ -138,13 +145,13 @@ class Crawler(Db_manager, threading.Thread):
             return v.strip()
 
     # Split text
-    @tracer
+    #@tracer
     def separate_words(self,text):
         text = re.sub("[\\\\,=+!#№\?/^:'()@#|$;%&*{}\_\]\[]", "", text)
         return [s.lower() for s in text.split() if s!='']
 
     # Returns True if page is indexed
-    @tracer
+    #@tracer
     def is_indexed(self, url):
         #print "[Crawler.is_indexed]", url
         u = self.cursor.execute \
@@ -158,20 +165,20 @@ class Crawler(Db_manager, threading.Thread):
         return False
 
     # Add links from one page to anothers
-    @tracer
+    #@tracer
     def add_link_ref(self, urlFrom, urlTo):
         id_from = self.get_entry_id('urllist', 'url', urlFrom)
         id_to = self.get_entry_id('urllist', 'url', urlTo)
         cur = self.cursor.execute("insert into link (fromid, toid) values (%d, %d)" % (id_from, id_to))
 
-    @tracer
+    #@tracer
     def normalize_url(self, url):
         url = url.split('#')[0].split("?")[0] 
         if url[-1] == "/": return url[0:-1]
         return url
 
     # Indexing all page from list 'pages' with depth.
-    @tracer
+    #@tracer
     def run(self):
         newpages = []
         if not self.page: return False
